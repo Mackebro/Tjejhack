@@ -1,0 +1,11 @@
+var click = document.getElementById('click');
+var score = 0;
+var clickValue = 1;
+
+function displayScore() {
+  display.innerHTML = score;
+}
+
+displayScore();
+
+click.addEventListener('click', increaseScore);
